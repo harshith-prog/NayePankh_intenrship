@@ -1,0 +1,149 @@
+/* Your CSS styles can go here */
+/* Enhanced styles with larger and bolder text for all sections */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+header {
+    background-color: rgba(0, 76, 138, 0.9);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 76, 138, 0.9);
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem; /* Increased font size */
+    font-weight: bold; /* Added font weight */
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+section {
+    height: 100vh; /* Set the section height to the viewport height */
+    background-size: 100% 100%; /* Ensure the image covers the entire section */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Set background images for each section */
+#home {
+    background-image: url('1.jpg'); /* Replace with your image URL */
+    background-position: left center; /* Move the background to the left */
+}
+
+#about {
+    background-image: url('2.jpg'); /* Replace with your image URL */
+}
+
+#certificates {
+    background-image: url('3.jpg'); /* Replace with your image URL */
+}
+
+#contact {
+    background-image: url('4.jpg'); /* Replace with your image URL */
+    background-position: right center; /* Move the background to the right */
+}
+
+#donate {
+    background-image: url('5.jpg'); /* Replace with your image URL */
+}
+
+/* Additional section-specific styling can be added here */
+
+.hero h1,
+.about-content h2,
+certificates-content h2,
+contact-content h2,
+donate-content h2 {
+    font-size: 3.5rem; /* Increased font size */
+    font-weight: bold; /* Added font weight */
+    text-align: center; /* Center-align text */
+}
+
+.hero p,
+.about-content p,
+certificates-content p,
+contact-content p,
+donate-content p {
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold; /* Added font weight */
+    margin-top: 20px;
+    text-align: center; /* Center-align text */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #004c8a;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.5rem; /* Increased font size */
+    font-weight: bold; /* Added font weight */
+    border: 2px solid #004c8a;
+    transition: background-color 0.3s;
+    border-radius: 30px; /* Rounded button */
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #004c8a;
+}
+
+footer {
+    background-color: rgba(0, 76, 138, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem; /* Increased font size */
+}
