@@ -1,4 +1,4 @@
-# NayePankh_intenrship
+# NayePankh_internship
 
 
 Introduction to the NayePankh Organization Website Project
